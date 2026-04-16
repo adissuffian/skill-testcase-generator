@@ -1,10 +1,10 @@
 ---
-name: test-case-generator
-description: "Generate test cases and scenarios with full test coverage from a JIRA ticket. Use when: creating tests from JIRA tickets, generating test scenarios, writing unit tests from acceptance criteria, test coverage for a ticket."
+name: msw-testcase-generator
+description: "Generate MSW test cases and scenarios with full test coverage from a JIRA ticket. Use when: creating msw tests from JIRA tickets, generating msw test scenarios, writing unit tests from acceptance criteria, test coverage for a ticket."
 argument-hint: "Provide a JIRA ticket URL (e.g., https://dominos.atlassian.net/browse/APP-2517) or ticket key (e.g., APP-2517)"
 ---
 
-# Test Case Generator from JIRA Ticket
+# MSW Test Case Generator from JIRA Ticket
 
 Generate comprehensive test cases and scenarios with full coverage from a JIRA ticket's requirements, acceptance criteria, and description.
 
@@ -59,7 +59,7 @@ Based on the ticket details, search the codebase for:
 
 Use `semantic_search`, `grep_search`, and `file_search` to locate relevant files.
 
-### Step 4: Generate Test Cases
+### Step 4: Generate MSW Test Cases
 
 Generate test cases following the project's conventions:
 
